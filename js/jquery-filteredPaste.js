@@ -7,11 +7,11 @@ $.filteredPaste = {
 	filters : {
 		"default" : function(pastedContent, options) {
 			var defaultOptions = {
-				"tags" : {
-					"*" : { "attributes" : ["alt"]},
-					"a" : { "attributes" : ["href"] },
-					"img" : { "attributes" : ["src"] },
-					"link" : { "attributes" : ["href"] }
+				tags : {
+					"*" : { attributes : ["alt"]},
+					a : { attributes : ["href"] },
+					img : { attributes : ["src"] },
+					link : { attributes : ["href"] }
 				}
 			}
 
